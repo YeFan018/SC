@@ -1,1 +1,2 @@
 The preprocessing pipeline is as follows: first, bert-base-chinese and ResNet-34 are used to extract features from textual and visual samples, respectively, to obtain their corresponding low-dimensional representations. Then, cosine similarity is employed to measure the semantic relevance between samples and construct a semantic similarity matrix. Finally, the matrix is normalized to facilitate subsequent model training and fusion.
+In the _sc file, the loaded semantic similarity matrix is utilized for subsequent computation.
